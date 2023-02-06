@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div class="container">
+        <!--MENU-->
+        <h1>QUẢN TRỊ WEBSITE</h1>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="admin.html">Loại hàng</a></li>
+                    <li><a href="">Hàng hóa</a></li>
+                    <li><a href="">Khách hàng</a></li>
+                    <li><a href="">Bình luận</a></li>
+                    <li><a href="">Thống kê</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--sản phẩm-->
+        <div class="product">
+            <div class="slideshow">
+                <div class="slide">
+                    <img src="img/product1.jpg" id="hinh" alt="">
+                    <button onclick="_next()" id="btn_next">></button>
+                    <button onclick="_pre()" id="btn_pre"></button>
+                    <p onclick="_auto()"></p>
+                </div>
+                <div class="pro-item mr" >
+                    <div class="item-content ">
+                        <a href=""> <img src="img/product1.jpg" alt=""></a>
+                        <div class="info-pro">
+                            <h3>$30.5</h3>
+                            <p>Giay nike trắng đen</p>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                       <a href=""> <img src="img/product2.jpg" alt=""></a>
+                        <div class="info-pro">
+                            <h3>$90.5</h3>
+                            <p>Giay jodan đen cổ cao</p>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <a href=""><img src="img/product3.jpg" alt=""></a>
+                        <div class="info-pro">
+                            <h3>$99.5</h3>
+                            <p>Giay jodan đỏ cổ cao</p>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                       <a href=""> <img src="img/product4.jpg" alt=""></a>
+                        <div class="info-pro">
+                            <h3>$30.5</h3>
+                            <p>Giay nike trắng đen</p>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <a href=""><img src="img/product5.jpg" alt=""></a>
+                        <div class="info-pro">
+                            <h3>$30.5</h3>
+                            <p>Giay nike trắng đen</p>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                    <a href=""> <img src="img/product6.jpg" alt=""></a>
+                        <div class="info-pro">
+                            <h3>$30.5</h3>
+                            <p>Giay nike trắng đen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="box1">
+                    <div class="box1-h4">
+                        <h4>Tài khoản</h4>
+                    </div>
+                    <form action="" id="form1" class="form1">
+                        
+                        <div class="info-box1">
+                            <div class="user">
+                                <p>Tên đăng nhập :</p>
+                                <input type="text" id="name" placeholder="Tên đăng nhập.." required>
+                            </div>
+                            <div class="password">
+                                <p>Mật khẩu :</p>
+                                <input type="password" id="password" placeholder="*********"> <br>
+                            </div>
+                            <input type="checkbox" id="" name="Ghi nhớ đăng nhập"> Ghi nhớ đăng nhập<br>
+                            <button id="btn-box1">Đăng nhập</button> <br>
+                            <li>
+                                <a href="quenmk.html">Quên mật khẩu</a> <br>
+                            </li>
+                            <li>
+                              <a href="dkithanhvien.html">Đăng kí thành viên</a>
+                            </li>
+                        </div>
+                    </form>
+                </div>
+                <div class="box2 mb">
+                    <div class="danhmuc menudoc">
+                        <div class="danhmuc0">
+                            <h4>Danh mục</h4>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày thời trang hot</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày NIKE</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày Jodan</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày VANS</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày Đá Bóng</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày Da</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày Bottom</p></a>
+                        </div>
+                        <div class="danhmuc1">
+                            <a href=""><p>Giày staffbug</p></a>
+                        </div>
+                        <form action="#" method="post" class="search-box2">
+                            <input type="text" placeholder="Tìm kiếm từ khóa">
+                        </form>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="love3">
+                        <h4>Top 10 yêu thích</h4>
+                    </div>
+                    <div class="content3">
+                        <div class="icon3">
+                            <a href=""><img src="img/product1.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Giày jodan đỏ</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product2.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Nike AF1 trắng</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product3.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Giày jodan vàng</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product4.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Giày jodan đỏ cổ thấp</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product5.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">NIKE AF1 Đen</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product6.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Giày jodan đỏ</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product2.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Giày jodan đỏ</a>
+                        </div>
+                        <div class="icon3">
+                            <a href=""><img src="img/product5.jpg" alt=""></a>                         
+                        </div>
+                        <div class="info-content3">
+                            <a href="">Giày jodan đỏ</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p> Copyright © by Dinh Cong Than</p>
+        </footer>
+    </div>
+   
+    <!-- script -->
+    <script>
+        var hinh = document.querySelector("#hinh");
+        var ARR = [];
+        var index = 0;
+        document.body.onload = function () {
+            for (var i = 0; i < 6; i++) {
+                ARR[i] = new Image();
+                ARR[i].src = "img/product" + (i + 1) + ".jpg";
+            }
+            _auto();
+        }
+        function _next() {
+            index++;
+            if (index > 5) index = 0;
+            hinh.src = ARR[index].src;
+        }
+        var t;
+        function _auto() {
+            clearInterval(t);
+            t = setInterval("_next()", 2000);
+        }
+    </script>
+</body>
+
+</html>
